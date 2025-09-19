@@ -1,0 +1,59 @@
+name: porto-bank-transaction-cluster
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - openpyxl
+  - scikit-learn-extra
+  - xgboost
+
+  # Deep Learning
+  # - pytorch
+  # - torchvision
+  # - torchaudio
+  # - tensorflow
+  # - keras
+
+  # Data Processing / Big Data
+  # - dask
+  # - polars
+  # - pyspark
+
+  # Visualization & Dashboard
+  - plotly
+  # - bokeh
+
+  # Jupyter & Tools
+  - jupyter
+  - jupyterlab
+  - ipykernel
+
+  # File Format Support
+  - pyarrow
+  - fastparquet
+
+  # MLOps & Pipeline
+  # - mlflow
+  - kedro
+  # - dvc
+
+  # Elbow Method
+  - yellowbrick
+
+  # Pip-only packages
+  - pip:
+      # - ydata-profiling   # Auto EDA
+      # - streamlit         # Dashboard cepat
+      # - fastapi           # Serving model
+      # - uvicorn
+      - gower
