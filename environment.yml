@@ -15,7 +15,8 @@ dependencies:
   - seaborn
   - openpyxl
   - scikit-learn-extra
-  - xgboost
+  - xgboost=1.7.6
+  - joblib
 
   # Deep Learning
   # - pytorch
